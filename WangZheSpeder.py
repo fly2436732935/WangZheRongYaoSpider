@@ -7,6 +7,7 @@ headers = {
 'Referer':'http://h5.kohsocialapp.qq.com/app/yxzj/herov2/herodetail/?  后面自己抓包填在这',
 
 }
+#经过爬取得知只有105——200  501---504有英雄
 for i in [x for x in range(103,200)]+[501,502,503,504]:
     data={
         #以下XXX换成自己抓包得到的数据
